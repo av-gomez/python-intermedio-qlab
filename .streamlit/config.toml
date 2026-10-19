@@ -2,8 +2,8 @@
 # Es una copia de tarea_1/.streamlit/config.toml (usada al ejecutar en local desde tarea_1/).
 [theme]
 base = "light"
-primaryColor = "#9b1c1c"
-backgroundColor = "#fbf9f4"
-secondaryBackgroundColor = "#f1ede3"
-textColor = "#1f1d1a"
+primaryColor = "#3f4a5c"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f4f6f9"
+textColor = "#1f2328"
 font = "sans serif"

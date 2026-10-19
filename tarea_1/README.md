@@ -115,7 +115,7 @@ borrar `datos/etiquetas_llm.csv` y ejecutar `02_clasificacion.ipynb`.
 tarea_1/
 ├── 01_recoleccion.ipynb      # Scraping, limpieza, mapeo y EDA (Plotly)
 ├── 02_clasificacion.ipynb    # Zero-shot, LLM débil, auditoría, split, fine-tuning, evaluación y comparativa
-├── app.py                    # Dashboard "La Portada Clasificada": portada en vivo, juego, probador, resultados y corpus
+├── app.py                    # Dashboard Streamlit: probador (con titulares reales de hoy), resultados y corpus
 ├── .streamlit/config.toml    # Tema visual de la app
 ├── requirements.txt          # Dependencias exactas
 ├── README.md
