@@ -1,0 +1,14 @@
+{
+ "El Comercio": {
+  "fecha_descarga": "2026-10-18 19:47 (UTC-5)",
+  "user_agent": "TareaNLP-Diplomatura-PythonIntermedio/1.0 (proyecto academico; clasificacion de titulares; 1 solicitud cada 1-2 s)",
+  "registros_crudos": 376,
+  "duracion_min": null
+ },
+ "La Republica": {
+  "fecha_descarga": "2026-10-18 19:59 (UTC-5)",
+  "user_agent": "TareaNLP-Diplomatura-PythonIntermedio/1.0 (proyecto academico; clasificacion de titulares; 1 solicitud cada 1-2 s)",
+  "registros_crudos": 2345,
+  "duracion_min": 5.3
+ }
+}

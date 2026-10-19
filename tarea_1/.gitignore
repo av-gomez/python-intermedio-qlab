@@ -1,0 +1,18 @@
+# Entorno virtual
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Pesos pesados del modelo (superan el límite de 100 MB de GitHub)
+modelo/*.safetensors
+modelo/*.bin
+modelo/*.pt
+modelo/checkpoint-*/
+modelo/runs/
+
+# Salidas temporales del Trainer
+resultados_trainer/
+
+# Credenciales
+.env
+.streamlit/secrets.toml
