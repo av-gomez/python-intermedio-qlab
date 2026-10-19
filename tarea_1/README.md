@@ -8,6 +8,8 @@ Se construyó un corpus comparado de titulares de **La República** y **El Comer
 con un LLM local, se ajustó un Transformer ligero (DistilBERT multilingüe) y se desplegó un dashboard en Streamlit que
 clasifica titulares nuevos en vivo en 4 categorías: `politica`, `economia`, `deportes`, `ciencia_tecnologia`.       
 
+**🚀 Dashboard en vivo:** https://clasificador-titulares-pe.streamlit.app/ · Modelo: https://huggingface.co/av-gomez/clasificador-titulares-pe
+
 **Respuesta corta:** **sí.** Con 400 titulares reales y etiquetas generadas por un LLM local, sin anotación manual masiva, un DistilBERT ajustado en pocos minutos de CPU alcanza **F1 macro = 0.92** en un test reservado, frente a **0.72** de la línea base zero-shot.
 
 ## 2. Medios y fechas de extracción
