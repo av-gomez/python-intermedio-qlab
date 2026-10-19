@@ -1,0 +1,55 @@
+{
+  "fecha_evaluacion": "2026-10-18",
+  "modelo_base": "distilbert-base-multilingual-cased",
+  "modelo_llm": "ollama/qwen2.5:7b",
+  "modelo_zero_shot": "Recognai/bert-base-spanish-wwm-cased-xnli",
+  "n_train": 280,
+  "n_val": 60,
+  "n_test": 60,
+  "test_accuracy": 0.9167,
+  "test_f1_macro": 0.9169,
+  "test_f1_por_clase": {
+    "politica": 0.9091,
+    "economia": 0.8966,
+    "deportes": 0.9333,
+    "ciencia_tecnologia": 0.9286
+  },
+  "zero_shot_accuracy": 0.725,
+  "zero_shot_f1_macro": 0.7161,
+  "llm_vs_seccion_f1_macro": 0.9262,
+  "llm_test_f1_macro": 0.9495,
+  "auditoria_acuerdos": 18,
+  "auditoria_total": 20,
+  "auditoria_acuerdo_pct": 90.0,
+  "latencia_ms": {
+    "zero_shot": 598,
+    "llm": 6313,
+    "fine_tuned": 110
+  },
+  "matriz_confusion": [
+    [
+      15,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      13,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      14,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      13
+    ]
+  ]
+}
