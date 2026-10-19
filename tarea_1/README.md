@@ -1,4 +1,4 @@
-# 🗞️ Tarea 1 – Noticias peruanas: del titular al clasificador
+# 🗞️ Tarea 1 – Noticias peruanas: del titular al clasificador     
 
 ## 1. Pregunta del proyecto
 
@@ -6,7 +6,7 @@
 
 Se construyó un corpus comparado de titulares de **La República** y **El Comercio**, se etiquetó de forma semi-supervisada
 con un LLM local, se ajustó un Transformer ligero (DistilBERT multilingüe) y se desplegó un dashboard en Streamlit que
-clasifica titulares nuevos en vivo en 4 categorías: `politica`, `economia`, `deportes`, `ciencia_tecnologia`.
+clasifica titulares nuevos en vivo en 4 categorías: `politica`, `economia`, `deportes`, `ciencia_tecnologia`.       
 
 **Respuesta corta:** **sí.** Con 400 titulares reales y etiquetas generadas por un LLM local, sin anotación manual masiva, un DistilBERT ajustado en pocos minutos de CPU alcanza **F1 macro = 0.92** en un test reservado, frente a **0.72** de la línea base zero-shot.
 
